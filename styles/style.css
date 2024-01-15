@@ -71,6 +71,13 @@
 }
 
 .find-now-button {
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
     width: 174px;
     height: 52px;
     flex-shrink: 0;
