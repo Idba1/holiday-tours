@@ -5,3 +5,15 @@
     padding: 0px;
     font-family: 'Mulish', sans-serif;
 }
+
+.main-body{
+    max-width: 82%;
+    margin: 0 auto;
+}
+
+.banner{
+    background-image: url('../Images/banner.png');
+    width: 1170px;
+height: 500px;
+
+}
