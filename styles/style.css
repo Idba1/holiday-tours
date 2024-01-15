@@ -217,10 +217,12 @@ li {
         'Srilanka Srilanka    North-America North-America North-America North-America      Kashmir Kashmir'
         'Bangladesh Bangladesh Bangladesh    Bandarban Bandarban Bandarban  Bandarban Bandarban'
     ;
-    gap: 10px;
+    gap: 0.625rem;
 }
 
-
+.why-choose-us{
+    margin-top: 6.25rem ;
+}
 .why-choose-us-content h1 {
     color: #131318;
     text-align: center;
@@ -228,6 +230,7 @@ li {
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+    margin-bottom: 1.5rem;
 }
 
 .why-choose-us-content p {
@@ -239,6 +242,7 @@ li {
     line-height: 26px;
     width: 643px;
     margin: 0 auto;
+    margin-bottom: 3rem;
 }
 
 .card-1 img {
