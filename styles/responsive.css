@@ -81,6 +81,23 @@
     gap: 0.625rem;
     }
 
+    /* responsive for why choose us section */
+    .why-choose-us{
+        margin-top: 1.55rem ;
+    }
+    .why-choose-us-content h1 {
+        font-size: 1.25rem;
+    }
+    
+    .why-choose-us-content p {
+        width: 90%;
+        font-size: 0.87rem;
+        margin: 0 auto;
+        margin-bottom: 3rem;
+    }
+    .card-1 ,.card-3 , .card-2 {
+        width: 80%;
+    }
 }
 
 
