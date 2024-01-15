@@ -86,3 +86,24 @@
     border: none;
     padding: 1rem;
 }
+
+.our-popular-tours {
+    margin: 4rem 0rem;
+}
+
+.popular-tour-content h1 {
+    color: #131318;
+    text-align: center;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.popular-tour-content p , li{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
