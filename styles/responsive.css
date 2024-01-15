@@ -66,6 +66,21 @@
         margin-top: 1.5rem;
     }
 
+    /* choose-your-destination section responsive */
+    .destination-images{
+        display: grid;
+    grid-template-areas:
+        ' maldives'
+        'Indonesia'
+        'Srilanka'
+        'North-America'
+        'Kashmir'
+        'Bangladesh'
+        'Bandarban'
+    ;
+    gap: 0.625rem;
+    }
+
 }
 
 
