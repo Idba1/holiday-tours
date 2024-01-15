@@ -115,11 +115,29 @@
     line-height: 26px;
     margin-bottom: 1rem;
 }
+.read-more-button{
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    padding: 0.87rem 2.12rem 0.81rem 2.18rem;
+    margin-top: 1.5rem;
+}
 .popular-tour-image{
     width: 50%;
 }
 .popular-tour-image img{
     width: 100%;
+    height: 100%;
    object-fit: cover;
    padding: 0rem ;
    margin: 0 auto;
