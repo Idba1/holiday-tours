@@ -167,16 +167,52 @@ li {
     line-height: 26px;
 }
 
-/* .destination-images img{
-    height: 100%;
-    width: 100%;
-} */
-/* .two-picture{
-    height: 300px;
+.image-1 {
+    grid-area: maldives;
 }
-.three-picture{
-    height: 286px;
-} */
+
+.image-2 {
+    grid-area: Indonesia;
+}
+
+.image-3 {
+    grid-area: Srilanka;
+}
+
+.image-4 {
+    grid-area: North-America;
+}
+
+.image-5 {
+    grid-area: Kashmir;
+}
+
+.image-6 {
+    grid-area: Bangladesh;
+}
+
+.image-7 {
+    grid-area: Bandarban;
+}
+
+.destination-images img {
+    width: 100%;
+    height: 100%;
+    
+    border-radius: 16px;
+    /* background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%); */
+}
+
+.destination-images {
+    display: grid;
+    grid-template-areas:
+        ' maldives maldives maldives maldives    Indonesia Indonesia   Indonesia Indonesia '
+        'Srilanka Srilanka    North-America North-America North-America North-America      Kashmir Kashmir'
+        'Bangladesh Bangladesh Bangladesh    Bandarban Bandarban Bandarban  Bandarban Bandarban'
+    ;
+    gap: 10px;
+}
+
 
 .why-choose-us-content h1 {
     color: #131318;
@@ -196,4 +232,40 @@ li {
     line-height: 26px;
     width: 643px;
     margin: 0 auto;
+}
+
+.card-1 img {
+    width: 50px;
+    height: 50px;
+}
+
+.card-1 h1 {
+    color: #131318;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.card-1 p {
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    width: 486px;
+}
+
+.card-1 {
+    width: 500px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 2rem 3.43rem 2rem 2rem;
+}
+
+.choose-us-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-rows: repeat(2,1fr); */
 }
