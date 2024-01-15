@@ -149,6 +149,12 @@ li {
     border-radius: 1rem;
 }
 
+.choose-your-destination{
+    margin-top: 6.25rem;
+}
+.destination-content{
+    margin-bottom: 3rem;
+}
 .destination-content h1 {
     color: #131318;
     text-align: center;
@@ -156,6 +162,7 @@ li {
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+    margin-bottom: 1.5rem;
 }
 
 .destination-content p {
