@@ -146,6 +146,7 @@ li {
     object-fit: cover;
     padding: 0rem;
     margin: 0 auto;
+    border-radius: 1rem;
 }
 
 .destination-content h1 {
@@ -165,3 +166,14 @@ li {
     font-weight: 400;
     line-height: 26px;
 }
+
+/* .destination-images img{
+    height: 100%;
+    width: 100%;
+} */
+/* .two-picture{
+    height: 300px;
+}
+.three-picture{
+    height: 286px;
+} */
