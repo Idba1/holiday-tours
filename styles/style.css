@@ -424,6 +424,44 @@ li {
     margin-bottom: 2rem;
 }
 
+
+
+.save-up {
+    width: 15rem;
+    height: 5rem;
+    transform: rotate(-19.628deg);
+    flex-shrink: 0;
+    border-radius: 1rem;
+    background: #FF5400;
+    text-align: center;
+    padding: 1rem;
+    position: absolute;
+    margin-top: -10rem;
+    margin-left: 20rem;
+}
+/* .news-letter-image {
+    position: absolute;
+} */
+.travel {
+    transform: rotate(-19.628deg);
+    color: #FFF;
+    text-align: center;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Save {
+    transform: rotate(-19.628deg);
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
 .input-container {
     margin-top: 1rem;
 }
