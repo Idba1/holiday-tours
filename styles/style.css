@@ -394,13 +394,13 @@ li {
 }
 
 .review-container-card {
-    width: 28rem;
-    height: 10rem;
+    width: 15rem;
+    height: 15rem;
     border-radius: 16px;
-    border: 2px solid #c70808;
+    border: 1.5px solid #c70808;
     background: rgba(255, 255, 255, 0.80);
     backdrop-filter: blur(2.5px);
-    padding: 0.5rem;
+    padding: 1rem;
     margin-top: 3rem;
 }
 
