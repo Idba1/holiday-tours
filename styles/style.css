@@ -149,12 +149,14 @@ li {
     border-radius: 1rem;
 }
 
-.choose-your-destination{
+.choose-your-destination {
     margin-top: 6.25rem;
 }
-.destination-content{
+
+.destination-content {
     margin-bottom: 3rem;
 }
+
 .destination-content h1 {
     color: #131318;
     text-align: center;
@@ -205,7 +207,7 @@ li {
 .destination-images img {
     width: 100%;
     height: 100%;
-    
+
     border-radius: 16px;
     /* background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%); */
 }
@@ -220,9 +222,10 @@ li {
     gap: 0.625rem;
 }
 
-.why-choose-us{
-    margin-top: 6.25rem ;
+.why-choose-us {
+    margin-top: 6.25rem;
 }
+
 .why-choose-us-content h1 {
     color: #131318;
     text-align: center;
@@ -258,7 +261,7 @@ li {
     line-height: normal;
 }
 
-.choose-us-card  p {
+.choose-us-card p {
     color: #5A5A5D;
     font-size: 1rem;
     font-style: normal;
@@ -267,13 +270,15 @@ li {
     width: 98%;
 }
 
-.card-1 ,.card-3 {
+.card-1,
+.card-3 {
     width: 450px;
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
     padding: 2rem 2.43rem 2rem 2rem;
 }
+
 .card-2 {
     width: 450px;
     border-radius: 16px;
@@ -281,15 +286,66 @@ li {
     background: rgba(41, 206, 246, 0.05);
     padding: 2rem 2.43rem 2rem 2rem;
 }
-.card-container{
-    display: flex; 
-    flex-wrap: wrap ;
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-content: center;
     gap: 1rem;
-     
+
 }
-.choose-us-card{
+
+.choose-us-card {
     flex-basis: 500px;
 }
 
+.news-letter {
+    display: flex;
+    gap: 0.87rem;
+    margin-top: 5rem;
+}
+
+.news-letter-content {
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    width: 40%;
+    padding: 2.5rem;
+}
+
+.news-letter-content h1 {
+    color: #131318;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.news-letter-content p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 0.75rem;
+}
+.input-container input{
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    width: 70%;
+    margin: 0.75rem auto;
+    height: 2.25rem;
+}
+.input-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.news-letter-image img {
+    width: 100%;
+}
+.subscribe{
+    border-radius: 8px;
+background: #FF5400;
+}
