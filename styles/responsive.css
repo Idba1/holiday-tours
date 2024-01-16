@@ -1,6 +1,18 @@
 /* Responsive for small device (max-width:600px and down) */
 @media screen and (max-width: 600px) {
-
+    /* .nav-heading {
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-items {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 50%;
+    } */
+    .nav{
+        display: none;
+    }
     /* banner section responsive */
     .banner {
 

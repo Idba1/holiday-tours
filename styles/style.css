@@ -33,15 +33,17 @@
     font-weight: 400;
     line-height: normal;
 }
-.home{
+
+.home {
     color: #FF5400;
-text-align: center;
-font-family: Mulish;
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
+
 .main-body {
     width: 85%;
     max-width: 1170px;
@@ -104,6 +106,34 @@ line-height: normal;
     background: #FFF;
     border: none;
     padding-left: 1rem;
+}
+
+.when>input {
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    padding-left: 1rem;
+}
+
+.when>img {
+    margin-left: -2.5rem;
+}
+
+.select-type>input {
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    padding-left: 1rem;
+}
+
+.select-type>img {
+    margin-left: -2.5rem;
 }
 
 .find-now-button {
@@ -256,6 +286,32 @@ li {
         'Bangladesh Bangladesh Bangladesh    Bandarban Bandarban Bandarban  Bandarban Bandarban'
     ;
     gap: 0.625rem;
+}
+
+.image-1,
+.image-2,
+.image-3,
+.image-4,
+.image-5,
+.image-6,
+.image-7 {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.destination-images-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    text-align: center;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
 }
 
 .why-choose-us {
