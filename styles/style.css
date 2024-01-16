@@ -393,12 +393,30 @@ li {
     flex-basis: 500px;
 }
 
-.client-img{
-    border-width: 100px;
-    border-width: 100px;
-    border-radius: 50%;
-    border-color: gray;
+.review-container-card {
+    width: 28rem;
+    height: 10rem;
+    border-radius: 16px;
+    border: 2px solid #c70808;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding: 0.5rem;
+    margin-top: 3rem;
 }
+
+.img-name {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.client-img img {
+    width: 50px;
+    height: 50px;
+    border: 0.25rem solid #0a496b;
+    border-radius: 50%;
+}
+
 .news-letter {
     display: flex;
     gap: 0.87rem;
