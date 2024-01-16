@@ -120,6 +120,10 @@
         width: 85%;
         padding: 1.5rem;
     }
+    /* Responsive for footer */
+    .footer-description {
+        padding: 0.5rem;
+    }
 }
 
 
@@ -195,4 +199,5 @@
         width: 85%;
         padding: 1.5rem;
     }
+    /*  */
 }
