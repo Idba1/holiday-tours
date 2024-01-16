@@ -1,6 +1,6 @@
 /* Responsive for small device (max-width:600px and down) */
 @media screen and (max-width: 600px) {
-    .menu{
+    .menu {
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -13,16 +13,24 @@
         background-color: #FFF;
         transition: all 0.2s ease-in-out;
     }
-    .menu li{
+
+    .menu li {
         margin-top: 40px;
     }
+
     .menu li a {
         padding: 10px;
     }
-    .open-menu , .close-menu{
+
+    .open-menu,
+    .close-menu {
         display: block;
     }
-    #check:checked ~ .menu {right: 0;}
+
+    #check:checked~.menu {
+        right: 0;
+    }
+
     .banner {
 
         background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/banner.png');
@@ -126,6 +134,7 @@
     .card-2 {
         width: 80%;
     }
+
     /* Responsive for customer review section */
     /* .card-container{
         display: flex;
@@ -148,12 +157,15 @@
         width: 85%;
         padding: 1.5rem;
     }
-    .travel{
+
+    .travel {
         font-size: 1rem;
     }
-    .Save{
+
+    .Save {
         font-size: 1rem;
     }
+
     .save-up {
         width: 9rem;
         height: 3.65rem;
@@ -166,10 +178,12 @@
         margin-top: -5.10rem;
         margin-left: 10rem;
     }
+
     /* Responsive for footer */
     .footer-heading h1 {
         font-size: 1.346rem;
     }
+
     .footer-description {
         padding: 0.5rem;
     }
@@ -235,18 +249,21 @@
         height: 100%;
         margin-top: 1.5rem;
     }
-      /* Responsive for news-letter section */
-      .news-letter {
+
+    /* Responsive for news-letter section */
+    .news-letter {
         display: flex;
         gap: 3rem;
         margin-top: 5rem;
         flex-direction: column;
     }
+
     .news-letter-content {
         border-radius: 16px;
         border: 1px solid #FF5400;
         width: 85%;
         padding: 1.5rem;
     }
+
     /*  */
 }
