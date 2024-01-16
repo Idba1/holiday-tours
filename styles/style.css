@@ -6,6 +6,42 @@
     font-family: 'Mulish', sans-serif;
 }
 
+.nav {
+    display: flex;
+    justify-content: space-between;
+    height: 4rem;
+    align-items: center;
+}
+
+.nav-heading {
+    display: flex;
+}
+
+.nav-items {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: black;
+    color: #424247;
+    text-align: center;
+    font-size: 1.12rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.home{
+    color: #FF5400;
+text-align: center;
+font-family: Mulish;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
 .main-body {
     width: 85%;
     max-width: 1170px;
