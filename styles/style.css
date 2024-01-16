@@ -393,6 +393,12 @@ li {
     flex-basis: 500px;
 }
 
+.client-img{
+    border-width: 100px;
+    border-width: 100px;
+    border-radius: 50%;
+    border-color: gray;
+}
 .news-letter {
     display: flex;
     gap: 0.87rem;
