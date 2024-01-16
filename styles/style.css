@@ -319,6 +319,7 @@ li {
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+
 }
 
 .news-letter-content p {
@@ -328,24 +329,44 @@ li {
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
-    margin-bottom: 0.75rem;
+    margin-bottom: 2rem;
 }
-.input-container input{
+.input-container{
+    margin-top: 1rem;
+}
+.input-container input {
     border-radius: 8px;
     background: rgba(19, 19, 24, 0.05);
     width: 70%;
     margin: 0.75rem auto;
-    height: 2.25rem;
+    height: 3.25rem;
+    border: none;
 }
+
+::placeholder {
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 1rem;
+}
+
 .input-container {
     display: flex;
     flex-direction: column;
 }
 
+.subscribe {
+    border-radius: 8px;
+    background: #FF5400;
+    width: 70%;
+    height: 3.25rem;
+    margin: 0.75rem auto 0rem;
+    border: none;
+}
 .news-letter-image img {
     width: 100%;
-}
-.subscribe{
-    border-radius: 8px;
-background: #FF5400;
+    border: 1px solid rgb(248, 224, 5);
+    height: 100%;
 }
