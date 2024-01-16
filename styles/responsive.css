@@ -1,19 +1,28 @@
 /* Responsive for small device (max-width:600px and down) */
 @media screen and (max-width: 600px) {
-    /* .nav-heading {
-        display: flex;
+    .menu{
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        z-index: 100;
+        background-color: #FFF;
+        transition: all 0.2s ease-in-out;
     }
-    .nav-items {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        width: 50%;
-    } */
-    .nav{
-        display: none;
+    .menu li{
+        margin-top: 40px;
     }
-    /* banner section responsive */
+    .menu li a {
+        padding: 10px;
+    }
+    .open-menu , .close-menu{
+        display: block;
+    }
+    #check:checked ~ .menu {right: 0;}
     .banner {
 
         background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/banner.png');

@@ -13,18 +13,31 @@
 <body>
     <div class="main-body">
         <header>
-            <nav class="nav">
-                <div class="nav-heading">
-                    <img src="Images/logo.png" alt="">
-                    <h1>Holiday <span class="footer-heading-tour">Tours</span></h1>
-                </div>
-                <div class="nav-items">
-                        <a href=""><span class="home">Home</span></a>
-                        <a href="">Packages</a>
-                        <a href="">Testimonial</a>
-                        <a href="">Blog</a>
-                        <a href="">Contact</a>
-                </div>
+            <nav>
+                <ul class="nav-bar">
+                    <li class="logo">
+                        <div class="nav-flex">
+                            <a href="#">
+                                <img src="Images/logo.png" alt="">
+                            </a>
+                            <h1>Holiday <span class="footer-heading-tour">Tours</span></h1>
+                        </div>
+                    </li>
+                    <input type="checkbox" name="checkbox" id="check">
+                    <span class="menu">
+                        <li><a href="">Home</a></li>
+                        <li> <a href="">Packages</a></li>
+                        <li> <a href="">Testimonial</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Contact</a></li>
+                        <label for="check" class="close-menu">
+                            <i class="fas fa-times"></i>
+                        </label>
+                    </span>
+                    <label for="check" class="open-menu">
+                        <i class="fas fa-times"></i>
+                    </label>
+                </ul>
             </nav>
             <div class="banner">
                 <h1 class="banner-heading">
