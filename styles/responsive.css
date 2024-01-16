@@ -132,6 +132,24 @@
         width: 85%;
         padding: 1.5rem;
     }
+    .travel{
+        font-size: 1rem;
+    }
+    .Save{
+        font-size: 1rem;
+    }
+    .save-up {
+        width: 11rem;
+        height: 3.65rem;
+        transform: rotate(-19.628deg);
+        flex-shrink: 0;
+        border-radius: 1rem;
+        background: #FF5400;
+        padding: 0rem;
+        position: absolute;
+        margin-top: -5.40rem;
+        margin-left: 13rem;
+    }
     /* Responsive for footer */
     .footer-heading h1 {
         font-size: 1.346rem;
