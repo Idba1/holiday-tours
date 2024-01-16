@@ -386,10 +386,11 @@ li {
 
 .footer-heading {
     display: flex;
+    gap: 0.62rem;
 }
 
 .footer-heading h1 {
-    color: var(--Dark-01, #131318);
+    color: #131318;
     font-size: 2rem;
     font-style: normal;
     font-weight: 800;
