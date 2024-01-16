@@ -392,7 +392,13 @@ li {
 .choose-us-card {
     flex-basis: 500px;
 }
-
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 1.25rem;
+}
 .review-container-card {
     width: 15rem;
     height: 15rem;
@@ -401,7 +407,8 @@ li {
     background: rgba(255, 255, 255, 0.80);
     backdrop-filter: blur(2.5px);
     padding: 1rem;
-    margin-top: 3rem;
+    margin-top: 1rem;
+    flex-basis: 18rem;
 }
 
 .img-name {
@@ -416,7 +423,10 @@ li {
     border: 0.25rem solid #0a496b;
     border-radius: 50%;
 }
-
+.rating-score p{
+    margin-top: 3rem;
+    text-align: center;
+}
 .news-letter {
     display: flex;
     gap: 0.87rem;

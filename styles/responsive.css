@@ -117,7 +117,14 @@
     .card-2 {
         width: 80%;
     }
-
+    /* Responsive for customer review section */
+    /* .card-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        gap: 1.25rem;
+    } */
     /* Responsive for news-letter section */
     .news-letter {
         display: flex;
